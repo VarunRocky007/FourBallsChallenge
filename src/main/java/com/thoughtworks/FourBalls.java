@@ -8,7 +8,7 @@ public class FourBalls extends PApplet {
     public static final int WIDTH = 640;
     public static final int DIAMETER = 5;
     public static final int DIVISOR = 5;
-    public static final int NUMBEROFBALLS = 4;
+    public static final int TOTALBALLS = 4;
     private int position;
 
     @Override
@@ -18,7 +18,7 @@ public class FourBalls extends PApplet {
     }
     @Override
     public void draw() {
-        for(int speed = 1; speed<= NUMBEROFBALLS; speed++){
+        for(int speed = 1; speed<= TOTALBALLS; speed++){
             drawCircle(speed);
         }
     }
